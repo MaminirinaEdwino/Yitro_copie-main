@@ -38,7 +38,7 @@ require_once dirname(__DIR__).'/utils/relativeroute.php';
                 <div class="footer-column">
                     <h4>Légal</h4>
                     <ul>
-                        <li><a href="#">Mentions légales</a></li>
+                        <li><a href="<?php echo To_relative_path('page/mention-legale.php')?>">Mentions légales</a></li>
                     </ul>
                 </div>
             </div>
